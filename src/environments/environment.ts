@@ -4,8 +4,8 @@
 
 export const environment = {
   production: false,
-  apiBaseUrl: 'https://agenda-api-new.herokuapp.com/api/contatos'
-  //apiBaseUrl: 'http://localhost:8080/api/contatos'
+  //apiBaseUrl: '/api/contatos'
+  apiBaseUrl: 'http://localhost:4040/api/contatos'
 };
 
 /*
