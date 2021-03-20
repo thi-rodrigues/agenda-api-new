@@ -5,10 +5,10 @@ const path = require('path');
 const app = express();
 
 // Serve only the static files form the dist directory
-app.use(express.static('./dist/agenda-api-new'));
+app.use(express.static('./dist/agenda-app'));
 
 app.get('/*', (req, res) =>
-    res.sendFile('index.html', {root: 'dist/agenda-api-new/'}),
+    res.sendFile('index.html', {root: 'dist/agenda-app/'}),
 );
 
 // Start the app by listening on the default Heroku port
