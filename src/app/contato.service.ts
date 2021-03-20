@@ -9,9 +9,8 @@ import { PaginaContato } from './contato/paginaContato';
   providedIn: 'root'
 })
 export class ContatoService {
-
-  url: string = '';
-  //url: string = environment.apiBaseUrl;
+  
+  url: string = environment.apiBaseUrl;
 
   constructor(
     private http: HttpClient
