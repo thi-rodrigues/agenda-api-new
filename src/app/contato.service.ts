@@ -10,7 +10,8 @@ import { PaginaContato } from './contato/paginaContato';
 })
 export class ContatoService {
 
-  url: string = environment.apiBaseUrl;
+  url: string = '';
+  //url: string = environment.apiBaseUrl;
 
   constructor(
     private http: HttpClient
